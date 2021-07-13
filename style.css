@@ -1,0 +1,88 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
+
+body {
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Lexend Deca', sans-serif; */
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.card-container {
+    width: 100vw;
+    height: 100vh;
+    background: hsl(233, 47%, 7%);
+}
+
+.card {
+    background: hsl(244, 38%, 16%);
+    width: 75%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-body{
+    width: 33%;
+    margin: 4% auto;
+}
+.card-body h1{
+    color: white;
+    font-size: 2.4em;
+}
+
+.card-body h1::first-letter {
+    text-transform: capitalize;
+}
+
+.card-body h1 span {
+    color: hsl(277, 64%, 61%);
+}
+
+.body-content {
+    width: 92%;
+}
+
+.body-content p {
+    line-height: 1.8em;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.body-content p::first-letter {
+    text-transform: uppercase;
+}
+
+.card-img {
+    width: 50%;
+}
+.card-img img {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    /* width and height makes the image span whole card. */
+    width: 100%;
+    height: 100%;
+}
+
+.card-body-footer {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin-top: 20%;
+}
+
+.card-body-footer h2 {
+    color: white;
+    margin: 0%;
+    margin-bottom: 5%;
+}
+.card-body-footer span {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    font-size: .9em;
+}
