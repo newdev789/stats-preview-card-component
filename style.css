@@ -1,16 +1,17 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'); */
 
+body,html {
+    height: 100%;
+}
 body {
     font-family: 'Inter', sans-serif;
-    /* font-family: 'Lexend Deca', sans-serif; */
     margin: 0px;
     box-sizing: border-box;
     font-size: 15px;
 }
 
 .card-container {
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: hsl(233, 47%, 7%);
 }
 
